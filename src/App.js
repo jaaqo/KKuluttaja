@@ -1,11 +1,11 @@
 import React from 'react'
 import { registerRootComponent } from 'expo'
 import { createAppContainer } from 'react-navigation'
-import { createStackNavigator, Header } from 'react-navigation-stack'
+import { createBottomTabNavigator } from 'react-navigation-tabs'
 import HomeScreen from './Home/HomeScreen'
 import AnotherScreen from './Another/AnotherScreen'
 
-const AppNavigator = createStackNavigator(
+const AppNavigator = createBottomTabNavigator(
   {
     Home: {
       screen: HomeScreen

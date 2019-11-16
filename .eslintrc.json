@@ -23,7 +23,8 @@
   "plugins": ["react", "react-native"],
   "rules": {
     "react-native/no-color-literals": 0,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/display-name": 0
   },
   "settings": {
     "react": {
